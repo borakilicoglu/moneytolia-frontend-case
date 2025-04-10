@@ -1,0 +1,19 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px 8px 0px 8px;
+}
+
+.active-link {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.sidebar-actions {
+  margin-top: auto;
+  padding: 16px 8px;
+}
+
+.create-campaign-btn {
+  width: 100%;
+}

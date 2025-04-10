@@ -1,0 +1,49 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav-container {
+  flex: 1;
+  margin-top: 64px; /* Height of the toolbar */
+}
+
+.sidenav {
+  width: 250px;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0px;
+}
+
+.content {
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .sidenav-container {
+    margin-top: 56px; /* Toolbar is smaller on mobile */
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-logo {
+  height: 40px; /* Adjust the size as needed */
+  width: auto;
+}
