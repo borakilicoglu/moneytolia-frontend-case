@@ -25,7 +25,7 @@ Moneytolia Frontend provides a comprehensive interface for creating, managing, a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-org/moneytolia-frontend.git
+   git clone https://github.com/borakilicoglu/moneytolia-frontend-case.git
    cd moneytolia-frontend
    ```
 
