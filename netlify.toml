@@ -1,3 +1,7 @@
+[build]
+  command = "npm run build:ssr"
+  publish = "dist/moneytolia-frontend/browser"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
